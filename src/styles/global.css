@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary100: #4cc38a;
+  --primary200: #30a46c;
+  --white: #ededef;
+  --black: #161618;
+  --outline: #7fffd4;
+  --radii: 4px;
+}
+
+body, input, button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+input, label, button {
+  font-size: 16px;
+}
