@@ -1,0 +1,32 @@
+.InputWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.InputWrapper input {
+  padding: 8px 5px;
+  border-color: azure;
+  border: 1px solid #ced4da;
+  border-radius: var(--radii);
+}
+
+.InputWrapper input:focus {
+  outline: none;
+  box-shadow: 0 0 0 4px rgba(21, 156, 228, 0.4);
+}
+
+.InputWrapper input[type="number"]::-webkit-outer-spin-button,
+.InputWrapper input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.InputWrapper input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.InputWrapper label {
+  margin-top: 20px;
+  margin-bottom: 2px;
+}
