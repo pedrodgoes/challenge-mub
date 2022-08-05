@@ -11,6 +11,7 @@
   --black: #161618;
   --outline: #7fffd4;
   --radii: 4px;
+  --borderColor: #eeeeee;
 }
 
 body, input, button {
