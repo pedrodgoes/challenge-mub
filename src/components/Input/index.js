@@ -1,12 +1,12 @@
-import './styles.css'
+import styles from './styles.module.css'
 
 const Input = ({ label, ...rest}) => {
   return (
-    <div className="InputWrapper">
+    <div className={styles.InputWrapper}>
       <span>{label}</span>
-      <input {...rest}/>
+      <input {...rest} />
     </div>
-  )
+  );
 }
 
 export default Input;
