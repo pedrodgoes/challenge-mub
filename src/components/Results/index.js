@@ -8,7 +8,7 @@ const Results = ({ results }) => {
       <div className={styles.Amount}>
         Prestação: {formatCurrency(results[1]?.amount)}
       </div>
-      <div style={{overflowX: 'auto'}}>
+      <div style={{ overflowX: "auto" }}>
         <table>
           <thead>
             <tr>
@@ -36,6 +36,6 @@ const Results = ({ results }) => {
       </div>
     </div>
   );
-}
+};
 
 export default Results;

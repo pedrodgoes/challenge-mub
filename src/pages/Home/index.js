@@ -10,11 +10,16 @@ function Home() {
   const [results, setResults] = useState([]);
 
   const calculate = () => {
+
     const firstValue = values.initialValue - values.entryValue;
     let tempValue = firstValue;
+
     const feesInitial = values.interestRate/100;
-    const fraction = (feesInitial*((1+feesInitial)**values.monthQuantity))/(((1+feesInitial)**values.monthQuantity)-1);
+    const fractionUp = (1+feesInitial)**values.monthQuantity;
+    const fractionLow = ((1+feesInitial)**values.monthQuantity)-1;
+    const fraction = (feesInitial*(fractionUp)/(fractionLow));
     const portion = (firstValue*( isNaN(fraction) ? 0 : fraction)).toFixed(2);
+
     const list = [{
       id: 0,
       fees: 0,
