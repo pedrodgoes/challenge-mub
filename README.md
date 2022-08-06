@@ -1,7 +1,7 @@
 <h1 align="center">Desafio técnico da MUB Team</h1>
 
 ## Este projeto foi desenvolvido para a realização do teste para a MUB Team.
-## Me basiei na UI/UX do exemplo dado para calculadora, [Calculadora PRICE Online](https://www.calculadora.com.br/financeira/financiamento-price/).
+### Me basiei na UI/UX do exemplo dado para calculadora, [Calculadora PRICE Online](https://www.calculadora.com.br/financeira/financiamento-price/).
 ### Ele foi feito em React.js, fazendo a prática das seguintes orientaçõs/requisitos.
 - Cálculos feitos no frontend, o projeto não tem backend ().
 - Não foi utilizado nenhuma lib de CSS, todo projeto foi estilizado com CSS puro.
@@ -9,7 +9,7 @@
 - Testes.
 
 <h1 align="center">
-  <img alt="challenge" title="#challenge" src="./assets/mub.png" />
+  <img alt="challenge" title="#challenge" src="./src/assets/mub.png" />
 </h1>
 
 ## Instruções para instalação e execução do proejto
